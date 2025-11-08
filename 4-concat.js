@@ -1,7 +1,4 @@
-const firstConcat = process.argv[2];
+const arg1 = process.argv[2];
+const arg2 = process.argv[3];
 
-if (firstConcat === undefined) {
-  console.log("No argument");
-} else {
-  console.log(firstConcat);
-}
+console.log(`${arg1} is ${arg2}`);
